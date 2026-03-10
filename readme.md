@@ -28,16 +28,28 @@ This project is a full-stack blogging platform built using the Django web framew
 
 ## Installation
 ### Clone the repository and install dependencies:
-git clone <repository-url> 
+```bash
+git clone <repository-url>
+```
+```bash
 cd blogging-system 
-python -m venv venv 
+```
+```bash
+python -m venv venv
+```
+```bash
 venv\Scripts\activate 
+```
+```bash
 pip install -r requirements.txt
-
+```
 ### Run the development server:
+```bash
 python manage.py migrate 
+```
+```bash
 python manage.py runserver
-
+```
 ### Open in browser:
 http://127.0.0.1:8000
 
